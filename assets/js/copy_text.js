@@ -13,12 +13,3 @@
         /* Alert the copied text */
         alert("Copied the text: " + copyText.value);
     }
-
-    // functions
-    function get_password_length(){
-        // prompt for length between 8 and 128 char
-        let password_length = prompt("Enter length of Password", "Enter number between 8 and 128")
-        password_length = parseInt(password_length)
-        console.log("password length: " + password_length)
-        return password_length
-    }
