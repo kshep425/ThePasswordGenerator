@@ -180,13 +180,13 @@
 
         special: false,
         include_special: function(){
-            this.special = confirm("Do you want your password to include special characters");
+            this.special = confirm("Do you want your password to include special characters?");
             this.at_least_one_char_type = this.at_least_one_char_type || this.special;
         },
 
         uppercase: false,
         include_uppercase: function(){
-            this.uppercase = confirm("Do you want your password to include uppercase letters")
+            this.uppercase = confirm("Do you want your password to include uppercase letters?")
             this.at_least_one_char_type = this.at_least_one_char_type || this.uppercase;
         },
 
