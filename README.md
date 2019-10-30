@@ -14,11 +14,13 @@ A tool to generate passwords.
 By selecting Generate Password button, the user will be prompted to:
 
 1. Enter the length of the password between 8 and 128 characters.
-1. Confirm if you want to include the following characters types in your password:
+1. Confirm if you want to include at least one of the following characters types in your password:
     1. Special Characters such as !@#$%^&*()
     1. Numbers 1234567890
     1. lowercase letters
     1. uppercase letters
+
+By selecting the Copy to Clipboard button, the password will be copied to the clipboard available to paste in other places.
 
 ## Credits
 
