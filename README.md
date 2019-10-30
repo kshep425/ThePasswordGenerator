@@ -1,5 +1,5 @@
 # The Password Generator
-[Password Generator](https://kshep425.github.io/ThePasswordGenerator/)
+
 <a href="https://kshep425.github.io/ThePasswordGenerator/" target="_blank">
 The Password Generator Home Page
 <p align="center">
@@ -20,3 +20,6 @@ By selecting Generate Password button, the user will be prompted to:
     1. lowercase letters
     1. uppercase letters
 
+## Credits
+
+* [Bootstrap4](https://www.https://getbootstrap.com)
