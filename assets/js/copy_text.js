@@ -1,15 +1,19 @@
     // copy password to clipboard
-    function myFunction(){
-        /* Get the text field */
-        var copyText = document.getElementById("generated-password");
 
-        /* Select the text field */
-        copyText.select();
-        copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-
-        /* Copy the text inside the text field */
-        document.execCommand("copy");
-
-        /* Alert the copied text */
-        alert("Copied the text: " + copyText.value);
-    }
+    // https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard
+    function myFunction() {
+        // get text from generated-password
+        var copy_text = document.getElementById("generated-password");
+        console.log(copy_text)
+        var the_password_to_copy = copy_text.innerText
+        console.log(the_password_to_copy)
+        newClip = the_password_to_copy
+        console.log("newClip: " + newClip)
+        navigator.clipboard.writeText(newClip).then(function() {
+          /* clipboard successfully set */
+          console.log("copied to clipboard: " + newClip)
+        }, function() {
+          /* clipboard write failed */
+          console.log("as usual it didn't work...please report the error to kshep425@yahoo.com")
+        });
+      }
