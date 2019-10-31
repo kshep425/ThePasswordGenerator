@@ -24,7 +24,8 @@ By selecting the Copy to Clipboard button, the password will be copied to the cl
 
 ## Credits
 
-* [Bootstrap4](https://www.https://getbootstrap.com)
+* [Bootstrap4](https://www.https://getbootstrap.com)]
+* [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard)
 
 ## License
 MIT License
