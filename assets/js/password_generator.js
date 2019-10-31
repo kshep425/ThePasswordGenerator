@@ -236,7 +236,7 @@
         // prompt for character types (special, numeric, lowercase, uppercase)
         var j = 0
         while(password.at_least_one_char_type === false){
-            set_special_char();
+            set_char_types();
             // validate at least one character type is selected
             if (password.at_least_one_char_type === false){
                 if (j < 3){
@@ -259,27 +259,24 @@
         document.getElementById("generated-password").innerText = password.new_password
     };
 
-
-
-
     function validate_password_length(the_password_length){
         if (the_password_length >= 8 & the_password_length <= 128){
             return true
         } else if (the_password_length === NaN){
             let msg = "Please enter a value between 8 and 128";
-            alert(msg);
+            //alert(msg);
             console.log(msg);
             return false
         } else {
             let msg = "Please enter a value between 8 and 128";
-            alert(msg);
+            //alert(msg);
             console.log(msg);
             return false
         }
     }
 
     // prompt for character types (special, numeric, lowercase, uppercase)
-    function set_special_char(){
+    function set_char_types(){
         password.include_special();
         write_password_stats();
         password.include_numeric();
