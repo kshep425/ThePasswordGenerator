@@ -26,6 +26,7 @@ By selecting the Copy to Clipboard button, the password will be copied to the cl
 
 * [Bootstrap4](https://www.https://getbootstrap.com)]
 * [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard)
+* [Shuffle](https://stackoverflow.com/questions/3943772/how-do-i-shuffle-the-characters-in-a-string-in-javascript)
 
 ## License
 MIT License
