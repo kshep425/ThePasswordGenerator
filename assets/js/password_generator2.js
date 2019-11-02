@@ -25,7 +25,8 @@ function generate_password(){
         } else {
             tries++;
             if (tries >=3){
-                alert("You have not entered a correct value in 3 tries:")
+                alert("You have not entered a correct value in 3 tries.\n Please try again later")
+                return
             }
 
             alert("Please enter number between 8 and 128.");
